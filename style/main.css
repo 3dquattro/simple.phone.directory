@@ -1,0 +1,63 @@
+.hidden
+{
+   display:none;
+}
+.table{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+thead {
+    background: #f5e8d0; /* Цвет фона заголовка */
+}
+
+tbody tr:nth-child(odd){
+	background: #fff;
+}
+tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
+.subd 
+{
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+.dept
+{
+	font-size: 16px;
+}
+div.main
+{
+  font-family: 'Times New Roman';
+  font-size: 14px;
+  line-height: 24px;
+  color: #00;
+  background-color: #fff;
+  /*margin-left: 15px;*/
+}
+
+
+
+
+/*body {margin:0;}*/
+h2 {
+  font-family: monospace;
+  color: #606060;
+}
+ul {
+  list-style: none; 
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+i {
+  margin-right: 10px;
+}
+
+
+
